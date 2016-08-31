@@ -1,0 +1,214 @@
+html {
+min-height: 100%; 
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+#headerbar {
+	width: 1024px;
+	height: 72px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#titletab {
+	font-size: 28pt;
+	line-height: 70px;
+	width: 768px;
+	height: 100%;
+	background-color: #515052;
+	display: inline-block;
+}
+
+#titletab p {
+	padding-left: 20px;
+}
+
+#headerbar a {
+	text-decoration: none;
+	color: white;
+}
+
+#downloadbtn {
+	background-color: #FF312E;
+	display: inline-block;
+	float: right;
+	width: 256px;
+	height: 100%;
+	line-height: 72px;
+	text-align: center;
+}
+
+#downloadbtn:hover {
+	background-color: red; 
+}	
+
+#navbar {
+	width: 1024px;
+	height: 48px;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+}
+
+#navbar ul {
+	float: left;
+	display: inline-block;
+	width: 1024px;
+	
+}
+
+#navbar a li {
+	float: left;
+	display: inline-block;
+	height: 48px;
+	width: 25%;
+	vertical-align: middle;
+	line-height: normal;
+	text-align: center;
+	background-color: #333138;
+	color: white;
+}
+
+#navbar p {
+	line-height: 48px;
+}
+
+#navbar li:hover {
+	color:white; 
+	background: #FF312E;
+	-o-transition:color .2s ease-out, background .2s ease-in;
+	-ms-transition:color .2s ease-out, background .2s ease-in;
+	-moz-transition:color .2s ease-out, background .2s ease-in;
+	-webkit-transition:color .2s ease-out, background .2s ease-in;
+	/* ...and now override with proper CSS property */
+	transition:color .2s ease-out, background .2s ease-in;
+}
+
+#wrapper {
+	position: relative;
+	clear: both;
+	width: 1024px;
+	min-height: 720px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	z-index: 0;
+	
+}
+
+#featurelinks {
+	width: 1024px;
+	height: 100px;
+	z-index: 100;	
+	position: absolute;
+	float: left;
+	right: 0;
+	bottom: 40px;
+	opacity: 0.9;
+	
+}
+
+#featurelinks ul {
+	display: table;
+	float: right;
+	width: 100%;
+	opacity: 0.9;
+}
+
+#featurelinks li {
+	display: table-cell;
+	height: 100px;
+	line-height: 40px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: normal;
+	background-color: white;
+	opacity: 0.9;
+	width: 256px;
+}
+
+#featurelinks a{
+	text-decoration: none;
+	
+}
+
+#featurelinks li:hover {
+	opacity: 1.0;
+}
+
+#wrapper {
+	background-color: #89898a;
+	height: 960px;
+	width: 1024px;
+	color: white;
+	padding-top: 20px;
+}
+
+#wrapper a {
+	color: white;
+	text-decoration: none;
+}
+
+#proexp {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding: 10px 20px;
+	background: #515052;
+	display:run-in;
+}
+
+#proexp table {
+	width: 100%;
+
+}
+
+#proexp th {
+	text-align: left;
+	padding-top: 4px;
+	padding-right: 0px;
+	padding-bottom: 4px;
+	background: #333138;
+}
+
+#proexp th h3 {
+	padding-left: 4px;
+}
+
+#proexp td {
+	padding: 2px 10px;
+	
+}
+
+.generaltables {
+	width: 100%;
+}
+
+.generaltables td {
+	width: 50%;
+}
+
+#threecolumn{
+	width: 30%;
+}
+
+#freelancecolumn td {
+	width: 35%;
+}
+
+#fourcolumn td {
+	width: 25%;
+}
+
+#contacts {
+	border-left-width: 1px;
+	border-left-color: grey;
+	border-left-style: solid;
+}
