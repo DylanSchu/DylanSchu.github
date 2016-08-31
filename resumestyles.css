@@ -143,9 +143,42 @@ min-height: 100%;
 	opacity: 1.0;
 }
 
+#featureimage {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+#featurebg img {
+	position:relative;
+	top: 0;
+	left: 0;
+}
+
+#featurefloat img {
+	position:absolute;
+	top: 30px;
+	left: 30px;
+	width: 370px;
+	height: 370px;
+
+}
+
+#featurebio {
+	position: absolute;
+	top: 90px;
+	left: 430px;
+	background: white;
+	color: black;
+	width: 550px;
+	border-radius: 4px;
+	opacity: 0.95;
+	padding: 10px;
+}
+
 #wrapper {
 	background-color: #89898a;
-	height: 960px;
+	height: 100%;
 	width: 1024px;
 	color: white;
 	padding-top: 20px;
@@ -160,22 +193,27 @@ min-height: 100%;
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-bottom: 20px;
-	padding: 10px 20px;
+	padding: 10px;
 	background: #515052;
 	display:run-in;
+	border-radius: 4px;
 }
 
 #proexp table {
 	width: 100%;
-
+	padding-left: 0px;
+	
 }
 
 #proexp th {
+	
 	text-align: left;
 	padding-top: 4px;
 	padding-right: 0px;
 	padding-bottom: 4px;
+	padding-left: 4px;
 	background: #333138;
+	border-radius: 4px;
 }
 
 #proexp th h3 {
